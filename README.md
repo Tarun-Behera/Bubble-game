@@ -1,4 +1,5 @@
 It is a game which is bassed on JS.
+
 About the game:-
 
 This game contains a Hit, Timer, Score.
