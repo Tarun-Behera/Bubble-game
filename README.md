@@ -12,4 +12,4 @@ Playing:-
 
 On clicking on the bubbles if the bubble number is same as the hit number than your score is increased by 10 everytime hitting the same number as of hit.
 
-But this will be remaining for certain time i.e for 60 sec after that you have to restart your game by refershing the page. 
+Timer of 60 sec will be runnung as soon as you click on any bubble whether it matches the hit or not. 
