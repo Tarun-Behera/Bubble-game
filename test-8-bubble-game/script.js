@@ -37,6 +37,7 @@ let increaseScore = () => {
 //# bubble clickleable and match with the hit value
 document.querySelectorAll(".bubble").forEach((bubble) => {
   bubble.addEventListener("click", () => {
+    startTimer(document.querySelector("#timerVal").textContent);
     if (bubble.textContent == document.querySelector("#hitVal").textContent) {
       console.log(`${bubble.textContent} got hit`);
       increaseScore();
@@ -47,5 +48,4 @@ document.querySelectorAll(".bubble").forEach((bubble) => {
   });
 });
 
-startTimer(document.querySelector("#timerVal").textContent);
 getNewHit();
