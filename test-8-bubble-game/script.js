@@ -16,7 +16,7 @@ let startTimer = (timer) => {
       document.querySelector("#timerVal").textContent = timer;
     } else {
       clearInterval(time);
-      document.querySelector(".gm-pannel").innerHTML = `<h1>Game Over</h1>`;
+      document.querySelector(".gm-pannel").innerHTML = `<h1>Game Over</h1> <button> Reload </button>`;
     }
   }, 1000);
 };
