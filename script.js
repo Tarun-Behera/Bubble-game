@@ -21,7 +21,7 @@ let startTimer = (timer) => {
       <button> Reload </button>
       </div>`;
     }
-  }, 10);
+  }, 1000);
 };
 
 //# Reload after game over
