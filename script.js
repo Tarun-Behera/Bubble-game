@@ -16,9 +16,12 @@ let startTimer = (timer) => {
       document.querySelector("#timerVal").textContent = timer;
     } else {
       clearInterval(time);
-      document.querySelector(".gm-pannel").innerHTML = `<h1>Game Over</h1> <button> Reload </button>`;
+      document.querySelector(".gm-pannel").innerHTML = `<div class="gm-over">
+      <h1>Game Over</h1> 
+      <button> Reload </button>
+      </div>`;
     }
-  }, 1000);
+  }, 10);
 };
 
 //# Reload after game over
@@ -48,7 +51,7 @@ document.querySelectorAll(".bubble").forEach((bubble) => {
     if (bubble.textContent == document.querySelector("#hitVal").textContent) {
       console.log(`${bubble.textContent} got hit`);
       increaseScore();
-      getNewHit()
+      getNewHit();
     } else {
       console.log("wrong hit");
     }
