@@ -65,6 +65,19 @@ main{
 .gm-pannel>h1{
     font-size: 100px;
 }
+.gm-pannel>button{
+    color: #b4adad;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #2a2a2a;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.gm-pannel>button:hover{
+    color: skyblue;
+}
 .bubble{
     height: 50px;
     width: 50px;
